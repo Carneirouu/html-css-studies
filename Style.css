@@ -7,7 +7,7 @@
 }
 
 header {
-    padding: 17rem;
+    padding: 12rem;
     background-color: #1a1b22;
     color: #e9ecff;
     text-align: center;
@@ -28,7 +28,9 @@ h2 {
     font-weight: 400;
 }
 
+
 .roles {
+    color: #432f7c;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -37,7 +39,27 @@ h2 {
     gap: 15px;
 }
 
-button {
+.frontButton {
+    padding: 1em 2em;
+    background-color: #9aa3ff;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 40px;
+    font-weight: 750;
+}
+
+.backButton {
+    padding: 1em 2em;
+    background-color: #9aa3ff;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 40px;
+    font-weight: 750;
+}
+
+.devopsButton {
     padding: 1em 2em;
     background-color: #9aa3ff;
     align-items: center;
@@ -48,12 +70,15 @@ button {
 }
 
 button:hover {
-    background-color: #e9ecff;
+    background-color: #b9bfff;
+    color: #432f7c;
 }
 
 a {
     text-decoration: none;
+    color: #432f7c;
 }
+
 
 body {
     background-color: #e9ecff;
@@ -125,8 +150,16 @@ main {
 .font {
     justify-self: left;
     background-color: #9aa3ff;
+    color: #432f7c;
+    border: none;
     border-radius: 40px;
-    padding: 0.2em 1em
+    padding: 0.2em 1em;
+    font-weight: bold;
+}
+
+.font:hover {
+    background-color: #b9bfff;
+    color: #432f7c;
 }
 
 .passos {
@@ -144,17 +177,26 @@ footer {
     background-color: #1a1b22;
     width: 100%;
     height: 10vh;
-    color: #e9ecff;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.rights {
+
+.gitProfile {
     background-color: #9aa3ff;
-    color: #1a1b22;
-    padding: 0.15em 0.8em;
+    color: #432f7c;
+    padding: 0.12em 2.5em;
+    align-items: center;
+    justify-self: center;
+    border: none;
     border-radius: 40px;
     font-weight: 500;
     font-size: large;
+    font-weight: 800;
+}
+
+.gitProfile:hover {
+    background-color: #b9bfff;
+    color: #432f7c;
 }
