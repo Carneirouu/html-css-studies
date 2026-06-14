@@ -8,7 +8,7 @@
 
 header {
     padding: 12rem;
-    background-color: #1a1b22;
+    background: linear-gradient(-45deg, #1a1b22, #46337a);
     color: #e9ecff;
     text-align: center;
 }
@@ -81,7 +81,7 @@ a {
 
 
 body {
-    background-color: #e9ecff;
+    background: linear-gradient(135deg, #e9ecff, #e7eaff);
     color: #1a1b22;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -109,7 +109,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-self: left;
-    background-color: #9aa3ff;
+    background: linear-gradient(-45deg, #9aa3ff, #aab1ff);
     padding: 0.5em 2em;
     border-radius: 40px;
     gap: 30px;
@@ -125,7 +125,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-self: left;
-    background-color: #9aa3ff;
+    background: linear-gradient(-45deg, #9aa3ff, #aab1ff);
     padding: 0.5em 2em;
     border-radius: 40px;
     gap: 30px;
@@ -141,7 +141,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-self: left;
-    background-color: #9aa3ff;
+    background: linear-gradient(-45deg, #9aa3ff, #aab1ff);
     padding: 0.5em 2em;
     border-radius: 40px;
     gap: 30px;
@@ -174,7 +174,7 @@ ol {
 }
 
 footer {
-    background-color: #1a1b22;
+    background: linear-gradient(135deg, #1a1b22, #46337a);
     width: 100%;
     height: 10vh;
     display: flex;
