@@ -1,66 +1,77 @@
 <!--First project - HTML-->
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
-    <title>Matheus Plano</title>
+    <meta charset="UTF-8">
+    <title>Carneirouu Plan</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
-    <div>
-        <h1>Transição de carreira</h1>
-        <h2>Neste primeiro projeto em html vou escrever um pouco sobre meu plano de estudos.</h2>
-        <h3><a href="#Frontend"><i>Frontend</i></a> <a href="#Backend"><i>Backend</i></a> <a
-                href="#DevOps"><i>DevOps</i></a></h3>
-    </div>
-    <h3>Roadmap inicial</h3>
-    <p>Passarei por diversas áreas da programação para aprender o máximo possivel.<br><br>Aqui vai alguns dos marcos.
-    </p>
-    <div id="Frontend">
-        <h3><b>Frontend</b></h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <lI>JavaScript</lI>
-            <li>npm</li>
-            <li>Git e GitHub</li>
-            <li>React e Tailwind CSS</li>
-        </ul>
-    </div>
-    <div id="Backend">
-        <h3><b>Backend</b></h3>
-        <ul>
-            <li>Node.js</li>
-            <li>PostgreSQL</li>
-            <lI>RESTful APIs</lI>
-            <li>JWT Auth</li>
-            <li>Redis</li>
-    </div>
-    <div id="DevOps">
-        <h3><b>DevOps</b></h3>
-        <ul>
-            <li>Linux Basics</li>
-            <li>AWS Services</li>
-            <lI>Monit</lI>
-            <li>GitHub Actions</li>
-            <li>Ansible</li>
-            <li>Terraform</li>
-        </ul>
-        <h5>Fonte: <a href="https://roadmap.sh/full-stack" taget="_blank">Roadmap.sh</a></h5>
-    </div>
-    <div>
-        <h2>Passos a seguir no inicio:</h2>
-        <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>FrameWork</li>
-        </ol>
-    </div>
+    <header>
+        <div>
+            <div class="header">
+                <h1>TRANSIÇÃO DE CARREIRA</h1>
+                <h2>Neste primeiro projeto em html vou escrever um pouco sobre meu plano de estudos.</h2>
+            </div>
+            <h3 class="roles">
+                <div class="button1"><button><a href="#Frontend">Frontend</a></button></div>
+                <div class="button2"><button><a href="#Backend">Backend</a></button></div>
+                <div class="button3"><button><a href="#DevOps">DevOps</a></button></div>
+            </h3>
+        </div>
+    </header>
+    <main>
+        <h3 class="roadmaptitle">ROADMAP INICIAL</h3><BR>
+        <p>Passarei por diversas áreas da programação para aprender o máximo possivel.<br>Aqui vai alguns dos
+            marcos.
+        </p>
+        <div class="Frontend" id="Frontend">
+            <h3><b>Frontend</b></h3><br>
+            <ul class="lifrontend">
+                <li>HTML</li>
+                <li>CSS</li>
+                <lI>JavaScript</lI>
+                <li>npm</li>
+                <li>Git e GitHub</li>
+                <li>React e Tailwind CSS</li>
+            </ul>
+        </div>
+        <div class="Backend" id="Backend">
+            <h3><b>Backend</b></h3><br>
+            <ul class="libackend">
+                <li>Node.js</li>
+                <li>PostgreSQL</li>
+                <lI>RESTful APIs</lI>
+                <li>JWT Auth</li>
+                <li>Redis</li>
+        </div>
+        <div class="DevOps" id="DevOps">
+            <h3><b>DevOps</b></h3><br>
+            <ul class="lidevops">
+                <li>Linux Basics</li>
+                <li>AWS Services</li>
+                <lI>Monit</lI>
+                <li>GitHub Actions</li>
+                <li>Ansible</li>
+                <li>Terraform</li>
+            </ul><br><br>
+            <h5 class="font">Fonte: <a href="https://roadmap.sh/full-stack" target="_blank">Roadmap.sh</a></h5><br>
+        </div>
+        <div class="passos">
+            <h3>Passos a seguir no inicio:</h3>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>FrameWork</li>
+            </ol>
+        </div>
+    </main>
 </body>
 <footer>
-    <h5><a href="https://github.com/Carneirouu" target="_blank"><em>Carneirouu</em></a>, obrigado!</h5>
+    <a href="https://github.com/Carneirouu" target="_blank" class="rights"><b>Carneirouu</b></a>
 </footer>
-
 
 </html>
